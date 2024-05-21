@@ -3,7 +3,7 @@ function checkAnswers() {
     let userInput = document.getElementById('answersInput').value.trim().toUpperCase().split(/\s*/);
     console.log(userInput);
     // Define the correct answers
-    let correctAnswers = ['A', 'B', 'C', 'D', 'E', 'A', 'B', 'C', 'D', 'E', 'A', 'B', 'C', 'D', 'E'];
+    let correctAnswers = ['D', 'C', 'C', 'A', 'A', 'E', 'A', 'A', 'E', 'B', 'A', 'A', 'E', 'B', 'B', 'C', 'B', 'D', 'A', 'B', 'E', 'B', 'D', 'B', 'A', 'D', 'C', 'D', 'B', 'D'];
     console.log(userInput.length, correctAnswers.length);
     // Check if the number of answers provided matches the number of correct answers
     if (userInput.length !== correctAnswers.length) {
